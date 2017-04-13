@@ -1,0 +1,59 @@
+#home {
+  padding-top:50px;
+  height:500px;
+  background-color: #1E88E5;
+}
+#projects {
+  padding-top:50px;
+  height:1000px;
+  background-color: #673ab7;
+}
+#contact {
+  padding-top:50px;
+  height:500px;
+  background-color: #ff9800;
+}
+.img-responsive {
+  max-width: 5%;
+  height: 30px;
+}
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #363838;
+    -moz-box-shadow: 0 8px 6px -6px #363838;
+    box-shadow: 0 8px 6px -6px #363838;
+}
+.container {
+    box-shadow: -60px 0px 100px -90px #000000, 60px 0px 100px -90px #000000;
+  -webkit-box-shadow: -60px 0px 100px -90px #000000, 60px 0px 100px -90px #000000;
+  -moz-box-shadow: -60px 0px 100px -90px #000000, 60px 0px 100px -90px #000000;
+}
+.footdiv {
+  background-color: #252525;
+  position:absolute;
+  left:0;
+  right:0;
+  color: #FFF;
+  
+ -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+              -moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+                         box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+}
+.left {
+  background-color: blue;
+  height: 100px;
+}
+.right {
+  background-color: #0b8fb7;
+  height: 100px;
+}
+.img-circle {
+  border-radius: 30%;
+}
+.project-images {
+  height: 300px;
+  width: 400px;
+  padding-top: 100px;
+}
+.icons {
+  padding-top:10px;
+}
