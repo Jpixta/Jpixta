@@ -1,6 +1,6 @@
 <html>
   <head>
-  <title>Welcome to Jpixta.com</title>
+  <title>Welcome</title>
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href = "css/style.css" rel="stylesheet">
@@ -59,26 +59,27 @@
   </div>
     <div class="container">
     <div class="row">
-        <div id="contact" class="col-xs-12 lowdiv">
+        <div id="contact" class="col-xs-12">
         <h1>Contact</h1>
         <div class="row">
-        <div class="col-xs-6">  
-        <form action="/submit email" class="text-center">
-          <div class="col-xs-12">
-            <input type="text" name="fullname" placeholder="Name" class="form-group" required>
+          <div class="col-xs-6">  
+	        <form method="POST" action="https://formspree.io/jpixta@gmail.com" class="text-center">
+	          <div class="col-xs-12">
+	            <input type="text" name="fullname" placeholder="name" class="form-group" required>
+	          </div>
+	          <div class="col-xs-12">
+	            <input type="text" name="email" placeholder="email" class="form-group" required>
+	          </div>
+	          <div class="col-xs-12">
+	            <input type="text" name="phone" placeholder="phone" class="form-group" required>
+	          </div>
+	         <div class="col-xs-12">
+	           <textarea type="text" name="message" placeholder="message" class="form-group" required></textarea>
+	          </div> 
+	          <button type="submit" name="submit" class="btn btn-success">Submit
+	        </button>
+	      </form>
           </div>
-          <div class="col-xs-12">
-            <input type="text" name="email" placeholder="Email" class="form-group" required>
-          </div>
-          <div class="col-xs-12">
-            <input type="text" name="phone" placeholder="Phone Number" class="form-group" required>
-          </div>
-         <div class="col-xs-12">
-           <input type="text" name="message" placeholder="Message" class="form-group" required>
-          </div> 
-          <button type="button" class="btn btn-success">Submit
-        </button>
-        </form>
           </div>
           <div class="col-xs-6">
             <h2>Fill out this form to get in touch ^_^</h2>
@@ -86,7 +87,7 @@
       
     </div>
   </div>
-      </div>
+  </div>    
   </div>
 <footer class="footer footdiv">
   <div class="container">

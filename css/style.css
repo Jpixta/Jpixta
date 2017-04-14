@@ -15,7 +15,8 @@
 }
 .img-responsive {
   max-width: 5%;
-  height: 30px;
+  height: auto;
+  width: auto\9;
 }
 .navbar {
     -webkit-box-shadow: 0 8px 6px -6px #363838;
